@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Beach",
+    "slug": "beach"
+  },
+  {
+    "title": "Temple",
+    "slug": "temple"
+  },
+  {
+    "title": "Nature",
+    "slug": "nature"
+  },
+  {
+    "title": "Mountain",
+    "slug": "mountain"
+  },
+  {
+    "title": "Hill",
+    "slug": "hill"
+  },
+  {
+    "title": "Cliff",
+    "slug": "cliff"
+  },
+  {
+    "title": "Building",
+    "slug": "building"
+  },
+  {
+    "title":"River",
+    "slug": "river"
+  },
+  {
+    "title": "Lake",
+    "slug": "lake"
+  }
+]

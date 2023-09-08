@@ -1,0 +1,10 @@
+{
+  "title": "homepage",
+  "path" : "/",
+  "navigations": [
+    {"title": "Destinations", "path": "/destinations"},
+    {"title": "Categories", "path": "/categories"},
+    {"title": "Activities", "path": "/activities"},
+    {"title": "About", "path": "/about"}
+  ]
+}
