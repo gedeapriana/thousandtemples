@@ -3,7 +3,7 @@ import CategoryCard from './CategoryCard.jsx';
 const CategoryContent = ({ data, categoryRef }) => {
   return (
     <div
-      className="w-full justify-start items-center gap-12 flex overflow-auto"
+      className="w-full hide-scrollbar justify-start items-center gap-12 flex overflow-auto"
       style={{ WebkitScrollSnapType: 'none' }}
       ref={categoryRef}
     >

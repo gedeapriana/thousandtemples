@@ -6,7 +6,7 @@ import { useRef } from 'react';
 
 const Category = () => {
   const categoryContainerRef = useRef(null);
-  const handleScrolltOnClick = (direction) => {
+  const handleScrollOnClick = (direction) => {
     const container = categoryContainerRef.current;
     if (container) {
       const scrollAmount = 300;
@@ -38,7 +38,7 @@ const Category = () => {
       <div className="w-full p-5 flex flex-col justify-center items-center gap-10 z-10">
         <CategoryHeader
           addClass="max-w-7xl"
-          handleScroll={handleScrolltOnClick}
+          handleScroll={handleScrollOnClick}
         />
         <CategoryContent
           addClass="w-full"

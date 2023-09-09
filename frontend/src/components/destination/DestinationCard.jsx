@@ -27,6 +27,7 @@ const DestinationCard = ({ data }) => {
           className={`${
             hovered ? 'bottom-0' : 'bottom-[-30px]'
           } absolute right-0 m-2 flex gap-2 justify-center items-center z-10`}
+          style={{ transition: 'all ease-in-out .3s' }}
         >
           <p className="text-white-col z-0 flex justify-center items-center gap-1 bg-violet-500 px-1 rounded-full text-sm">
             <HeartIcon className="w-3 h-3" />
