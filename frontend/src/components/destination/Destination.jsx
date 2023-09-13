@@ -1,14 +1,14 @@
 import DestinationHeader from './DestinationHeader.jsx';
-import data from '../../data/destination/destination.json';
+import axios from 'axios';
 import DestinationContent from './DestinationContent.jsx';
 import bgLight from '../../assets/images/mesh.png';
 import bgDark from '../../assets/images/dark-mesh.png';
-import { useLayoutEffect, useState } from 'react';
-import Link from '../Link.jsx';
+import { useEffect, useLayoutEffect, useState } from 'react';
 import DestinationFooter from './DestinationFooter.jsx';
 
 const Destination = () => {
   const [size, setSize] = useState([0, 0]);
+  const [destinations, setDestinations] = useState([]);
   useLayoutEffect(() => {
     function updateSize() {
       setSize([window.innerWidth, window.innerHeight]);
@@ -17,6 +17,13 @@ const Destination = () => {
     updateSize();
     return () => window.removeEventListener('resize', updateSize);
   }, []);
+
+  useEffect(() => {
+    axios
+      .get(`http://localhost:3000/destinations`)
+      .then((res) => setDestinations(res.data))
+      .catch((error) => console.log(error));
+  });
 
   return (
     <div
@@ -29,9 +36,9 @@ const Destination = () => {
       <div className="w-full max-w-7xl">
         <DestinationHeader />
         {size[0] >= 640 ? (
-          <DestinationContent data={data.slice(0, 8)} />
+          <DestinationContent data={destinations.slice(0, 8)} />
         ) : (
-          <DestinationContent data={data.slice(0, 3)} />
+          <DestinationContent data={destinations.slice(0, 3)} />
         )}
         <DestinationFooter text={'More Destinations'} path={'/destinations'} />
       </div>

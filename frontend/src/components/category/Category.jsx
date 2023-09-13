@@ -1,10 +1,11 @@
-import categories from '../../data/category/category.json';
+import axios from 'axios';
 import bgImage from '../../assets/images/leaf.jpg';
 import CategoryHeader from './CategoryHeader.jsx';
 import CategoryContent from './CategoryContent.jsx';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const Category = () => {
+  const [categories, setCategories] = useState([]);
   const categoryContainerRef = useRef(null);
   const handleScrollOnClick = (direction) => {
     const container = categoryContainerRef.current;
@@ -25,6 +26,13 @@ const Category = () => {
       }
     }
   };
+
+  useEffect(() => {
+    axios
+      .get(`http://localhost:3000/categories`)
+      .then((res) => setCategories(res.data))
+      .catch((error) => console.log(error));
+  });
 
   return (
     <div

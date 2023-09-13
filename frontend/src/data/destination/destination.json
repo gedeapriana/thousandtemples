@@ -8,7 +8,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.712617317303236, 115.1668455121354],
-    "price": "Free"
+    "price": 0
   },
   {
     "title": "Tanah Lot Temple",
@@ -19,7 +19,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.621152100522897, 115.08680250004782],
-    "price": "Rp 30,000"
+    "price": 30000
   },
   {
     "title": "Ubud Monkey Forest",
@@ -30,7 +30,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.519171084205922, 115.26062989853408],
-    "price": "Rp 50,000"
+    "price": 50000
   },
   {
     "title": "Tegallalang Rice Terraces",
@@ -41,7 +41,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.431605054154746, 115.27933518579829],
-    "price": "Rp 20,000"
+    "price": 20000
   },
   {
     "title": "Agung Rai Art Museum",
@@ -52,7 +52,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.522611313395622, 115.26328852691739],
-    "price": "Rp 50,000"
+    "price": 50000
   },
   {
     "title": "Sanur Beach",
@@ -63,7 +63,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.707168096949449, 115.2626218517922],
-    "price": "Free"
+    "price": 0
   },
   {
     "title": "Goa Gajah",
@@ -74,7 +74,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.523285467100607, 115.28714272876691],
-    "price": "Rp 15,000"
+    "price": 15000
   },
   {
     "title": "Seminyak Beach",
@@ -85,7 +85,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.68207577637126, 115.15198229844673],
-    "price": "Free"
+    "price": 0
   },
   {
     "title": "Taman Ayun Temple",
@@ -96,7 +96,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.541441305590194, 115.17261202736543],
-    "price": "Rp 20,000"
+    "price": 20000
   },
   {
     "title": "Balangan Beach",
@@ -107,7 +107,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.791015676856833, 115.12431837393704],
-    "price": "Free"
+    "price": 0
   },
   {
     "title": "Puri Saren Agung (Puri Ubud)",
@@ -118,7 +118,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.5066238863125, 115.26262563911132],
-    "price": "Rp 30,000"
+    "price": 30000
   },
   {
     "title": "Dreamland Beach",
@@ -129,7 +129,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.79922375937999, 115.11775517019205],
-    "price": "Rp 20,000"
+    "price": 20000
   },
   {
     "title": "Le Mayeur Museum",
@@ -140,7 +140,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.674781827537867, 115.26369915686966],
-    "price": "Rp 20,000"
+    "price": 20000
   },
   {
     "title": "Uluwatu Temple",
@@ -151,7 +151,7 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.828854609209174, 115.0850032899929],
-    "price": "Rp 30,000"
+    "price": 30000
   },
   {
     "title": "Pandawa Beach",
@@ -162,6 +162,6 @@
     "likeCount": 249,
     "viewCount": 100,
     "map": [-8.845323167825564, 115.18654722554231],
-    "price": "Rp 20,000"
+    "price": 20000
   }
 ]

@@ -1,34 +1,43 @@
 import mongoose from "mongoose";
 
 const Destination = mongoose.Schema({
-  name: {
+  title: {
+    require: true,
     type: String,
-    required: true,
   },
   slug: {
-    type: String,
-    required: true,
-  },
-  type: {
-    type: String,
-    required: true,
-  },
-  cost: {
-    type: Number,
-    require: false,
-  },
-  subdistrict: {
-    type: String,
-    require: false,
-  },
-  regency: {
-    type: String,
-    require: false,
-  },
-  coordinates: {
-    type: String,
     require: true,
+    type: String,
   },
+  description: {
+    require: true,
+    type: String,
+  },
+  category: {
+    require: true,
+    type: String,
+  },
+  location: {
+    require: true,
+    type: String,
+  },
+  likeCount: {
+    require: true,
+    type: Number,
+  },
+  viewCount: {
+    require: true,
+    type: Number,
+  },
+  map: {
+    require: true,
+    type: Array,
+  },
+  price: {
+    require: false,
+    type: Number,
+  }
 });
 
-export default mongoose.model("Destinations", Destination);
+export default mongoose.model('Destinations', Destination);
+

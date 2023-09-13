@@ -1,20 +1,16 @@
 {
-  "name": "thousandtemples-backend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "backend",
-  "main": "index.js",
-  "author": "gedeapriana",
+  "main": "server.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mongoose": "^7.4.3"
-  },
-  "devDependencies": {
-    "prettier": "3.0.2"
+    "mongoose": "^7.5.1"
   }
 }
