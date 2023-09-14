@@ -10,18 +10,18 @@ import {
 const HamburgerOption = ({ data, show, setShow, dark, setDark }) => {
   return (
     <div
-      className={`w-full flex flex-col items-center justify-start gap-4 p-5 rounded-l-2xl shadow-xl max-w-lg h-screen bg-white-col dark:bg-black-darkmode absolute top-0 ${
+      className={`w-full flex flex-col items-center justify-start gap-4 p-5 rounded-l-2xl shadow-xl max-w-lg bg-white-col transition-all ease-in-out duration-500 dark:bg-black-darkmode absolute top-20 ${
         show ? 'right-0' : 'right-[-800px]'
       }`}
     >
-      <div className="w-full flex justify-end">
-        <XMarkIcon
-          onClick={() => {
-            setShow(!show);
-          }}
-          className="w-7 h-7 text-black-col dark:text-white-darkmode cursor-pointer"
-        />
-      </div>
+      {/*<div className="w-full flex justify-end">*/}
+      {/*  <XMarkIcon*/}
+      {/*    onClick={() => {*/}
+      {/*      setShow(!show);*/}
+      {/*    }}*/}
+      {/*    className="w-7 h-7 text-black-col dark:text-white-darkmode cursor-pointer"*/}
+      {/*  />*/}
+      {/*</div>*/}
 
       <ul className="flex justify-center gap-4 items-center">
         {data.navigations.map((navigation, index) => {
@@ -46,9 +46,9 @@ const HamburgerOption = ({ data, show, setShow, dark, setDark }) => {
           }}
         >
           {!dark ? (
-            <SunIcon className="w-5 h-5 text-black-col dark:text-white-darkmode cursor-pointer hover:text-neutral-900 hidden md:inline" />
+            <SunIcon className="w-5 h-5 text-black-col dark:text-white-darkmode cursor-pointer hover:text-neutral-900" />
           ) : (
-            <MoonIcon className="w-5 h-5 text-black-col dark:text-white-darkmode cursor-pointer hover:text-neutral-900 hidden md:inline" />
+            <MoonIcon className="w-5 h-5 text-black-col dark:text-white-darkmode cursor-pointer hover:text-neutral-900" />
           )}
         </div>
         <GlobeAsiaAustraliaIcon className="w-5 h-5 text-black-col dark:text-white-darkmode cursor-pointer hover:text-neutral-900" />

@@ -12,7 +12,6 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Destination />
-      <PopularSearch />
       <Category />
       <HomepageMap />
       <Footer />

@@ -6,5 +6,10 @@
     {"title": "Categories", "path": "/categories"},
     {"title": "Activities", "path": "/activities"},
     {"title": "About", "path": "/about"}
+  ],
+  "others": [
+    {"title": "Term and Conditions", "path": "/term-and-conditions"},
+    {"title": "Privacy and Policy", "path": "/privacy-and-policy"},
+    {"title": "Help Center", "path": "/help-center"}
   ]
 }

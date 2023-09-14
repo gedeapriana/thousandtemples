@@ -3,7 +3,7 @@ import Link from '../Link.jsx';
 // eslint-disable-next-line react/prop-types
 const Navlists = ({ data }) => {
   return (
-    <div className="hidden md:flex">
+    <div className="hidden lg:flex">
       <ul className="flex gap-5">
         {data.navigations.map((navigation, index) => {
           return (
