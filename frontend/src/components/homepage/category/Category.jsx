@@ -1,5 +1,5 @@
 import axios from 'axios';
-import bgImage from '../../assets/images/leaf.jpg';
+import bgImage from '../../../assets/images/leaf.jpg';
 import CategoryHeader from './CategoryHeader.jsx';
 import CategoryContent from './CategoryContent.jsx';
 import { useEffect, useRef, useState } from 'react';

@@ -6,14 +6,9 @@
         <option name="requests">
           <list>
             <requestState>
-              <option name="id" value="f37775db-4ef1-4c19-86e5-72b576227363" />
-              <option name="method" value="GET" />
-              <option name="name" value="Draft" />
-            </requestState>
-            <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;title&quot;: &quot;Lovina Beach&quot;,&#10;  &quot;slug&quot;: &quot;lovina-beach&quot;,&#10;  &quot;description&quot;: &quot;Lovina Beach is a coastal area on the northwestern side of the island of Bali, Indonesia. It stretches for over 8 kilometers and consists of a string of small villages, including Kalibukbuk, Kaliasem, Anturan, and Tukad Mungga. Lovina is known for its black sand beaches, gentle waves, and abundance of marine life.\n\nOne of the most popular activities in Lovina is dolphin watching. Every morning, boats depart from the beach to see these playful creatures swimming in the ocean. The dolphins are known to be very friendly and often come close to the boats, allowing visitors to get a good look at them.\n\nIn addition to dolphin watching, Lovina also offers a variety of other activities for visitors to enjoy. There are opportunities for swimming, snorkeling, diving, sunbathing, and surfing. There are also several temples and villages to explore, as well as a number of restaurants and shops.&quot;,&#10;  &quot;category&quot;: &quot;Beach&quot;,&#10;  &quot;location&quot;: &quot;Anturan, Buleleng&quot;,&#10;  &quot;likeCount&quot;: 300,&#10;  &quot;viewCount&quot;: 400,&#10;  &quot;map&quot;: [-8.160141299890336, 115.0298721709534],&#10;  &quot;price&quot;: 0&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;title&quot;: &quot;Attend a cultural performance&quot;,&#10;  &quot;slug&quot;: &quot;attend-a-cultural-performance&quot;,&#10;  &quot;description&quot;: &quot;Bali is home to a vibrant cultural scene. Visitors can attend a cultural performance to experience traditional Balinese dance, music, and theater.&quot;,&#10;  &quot;createdAt&quot;: &quot;2023-09-18T00:12:46.000Z&quot;,&#10;  &quot;updatedAt&quot;: &quot;2023-09-18T00:12:46.000Z&quot;}&#10;" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
@@ -25,10 +20,10 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="154949a2-a4ba-48f8-9023-1398bcf9be5e" />
+              <option name="id" value="5fd6fb78-0aee-4e3c-a23e-0e28b3172092" />
               <option name="method" value="POST" />
-              <option name="name" value="Draft 1" />
-              <option name="url" value="http://localhost:3000/destinations" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:3000/activities/" />
             </requestState>
           </list>
         </option>

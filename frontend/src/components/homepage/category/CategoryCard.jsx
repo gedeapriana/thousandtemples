@@ -1,4 +1,4 @@
-import categoryImage from '../../assets/images/temp-categories.webp';
+import categoryImage from '../../../assets/images/temp-categories.webp';
 
 const CategoryCard = ({ title, slug }) => {
   return (

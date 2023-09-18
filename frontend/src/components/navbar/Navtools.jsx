@@ -7,7 +7,7 @@ import {
   MoonIcon,
 } from '@heroicons/react/24/outline';
 import { useState } from 'react';
-import HamburgerOption from '../hamburger-option/HamburgerOption.jsx';
+import HamburgerOption from '../homepage/hamburger-option/HamburgerOption.jsx';
 
 const Navtools = ({ data }) => {
   const [dark, setDark] = useState(false);

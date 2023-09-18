@@ -1,6 +1,6 @@
-import data from '../../data/popular-search/popular-search.json';
-import Link from '../Link.jsx';
-import Header from '../Header.jsx';
+import data from '../../../data/popular-search/popular-search.json';
+import Link from '../../Link.jsx';
+import Header from '../../Header.jsx';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 
 const PopularSearch = () => {

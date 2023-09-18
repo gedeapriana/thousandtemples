@@ -1,8 +1,8 @@
 import 'leaflet/dist/leaflet.css';
-import destinationImage from '../../assets/images/temp-destinations.webp';
+import destinationImage from '../../../assets/images/temp-destinations.webp';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import '../../css/homepagemap.css';
-import Link from '../Link';
+import '../../../css/homepagemap.css';
+import Link from '../../Link.jsx';
 
 const HomepageMapContent = ({ destinations }) => {
   const data = {

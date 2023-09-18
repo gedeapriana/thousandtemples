@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Do yoga",
+    "slug": "do-yoga",
+    "description": "Bali is a great place to do yoga. There are many yoga studios and retreats in Bali that offer classes for all levels. Visitors can practice yoga in a traditional Balinese setting or in a more modern studio.",
+    "createdAt": "2023-09-18T00:12:46.000Z",
+    "updatedAt": "2023-09-18T00:12:46.000Z"
+  },
+  {
+    "title": "Go on a cooking class",
+    "slug": "go-on-a-cooking-class",
+    "description": "Bali is home to a rich and diverse culinary tradition. Visitors can learn how to cook traditional Balinese dishes at one of the many cooking classes in Bali. Classes are available for all levels, from beginners to experienced cooks.",
+    "createdAt": "2023-09-18T00:12:46.000Z",
+    "updatedAt": "2023-09-18T00:12:46.000Z"
+  },
+  {
+    "title": "Go on a spa day",
+    "slug": "go-on-a-spa-day",
+    "description": "Bali is known for its luxurious spas. Visitors can relax and pamper themselves at one of the many spas in Bali. Spas offer a variety of treatments, including massages, facials, and body treatments.",
+    "createdAt": "2023-09-18T00:12:46.000Z",
+    "updatedAt": "2023-09-18T00:12:46.000Z"
+  },
+  {
+    "title": "Go on a day trip to a nearby island",
+    "slug": "go-on-a-day-trip-to-a-nearby-island",
+    "description": "Bali is surrounded by a number of beautiful islands, including Nusa Lembongan, Nusa Penida, and Nusa Ceningan. Visitors can take a day trip to one of these islands to explore the stunning scenery and beaches.",
+    "createdAt": "2023-09-18T00:12:46.000Z",
+    "updatedAt": "2023-09-18T00:12:46.000Z"
+  },
+  {
+    "title": "Go on a nature hike",
+    "slug": "go-on-a-nature-hike",
+    "description": "Bali has a variety of stunning natural landscapes, including forests, waterfalls, and mountains. Visitors can go on a nature hike to explore these landscapes and learn about the local flora and fauna.",
+    "createdAt": "2023-09-18T00:12:46.000Z",
+    "updatedAt": "2023-09-18T00:12:46.000Z"
+  },
+  {
+    "title": "Visit a traditional village",
+    "slug": "visit-a-traditional-village",
+    "description": "Bali has a number of traditional villages that offer a glimpse into Balinese culture. Visitors can visit these villages to learn about traditional Balinese architecture, customs, and way of life.",
+    "createdAt": "2023-09-18T00:12:46.000Z",
+    "updatedAt": "2023-09-18T00:12:46.000Z"
+  },
+  {
+    "title": "Attend a cultural performance",
+    "slug": "attend-a-cultural-performance",
+    "description": "Bali is home to a vibrant cultural scene. Visitors can attend a cultural performance to experience traditional Balinese dance, music, and theater.",
+    "createdAt": "2023-09-18T00:12:46.000Z",
+    "updatedAt": "2023-09-18T00:12:46.000Z"
+  }
+]
+
+

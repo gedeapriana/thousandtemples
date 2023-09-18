@@ -1,8 +1,8 @@
 import DestinationHeader from './DestinationHeader.jsx';
 import axios from 'axios';
 import DestinationContent from './DestinationContent.jsx';
-import bgLight from '../../assets/images/mesh.png';
-import bgDark from '../../assets/images/dark-mesh.png';
+import bgLight from '../../../assets/images/mesh.png';
+import bgDark from '../../../assets/images/dark-mesh.png';
 import { useEffect, useLayoutEffect, useState } from 'react';
 import DestinationFooter from './DestinationFooter.jsx';
 
